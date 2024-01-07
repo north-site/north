@@ -1,0 +1,173 @@
+html {
+  scroll-behavior: smooth;
+  
+}
+
+body::before {
+    background-image: url('background.jpg');
+    background-position: center;
+    background-size: cover;
+    content: '';
+    display: block;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+body{
+    margin: 0;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*
+#website-background{
+
+width: 100vw;
+background-image: url("../images/background.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}*/
+
+
+
+
+@media screen and (min-width: 1082px) {
+  h1 {
+    font-size: 5vw; /* méret 1080px-nél szélesebb kijelzőkön */
+    text-align: center;
+    color: rgba(0, 0, 0, .60);
+  }
+}
+  
+@media screen and (max-width: 1081px) {
+  h1 {
+    text-align: center;
+    font-size: 14vw; /* méret 1080px-es szélesség alatt kijelzőkre */
+    color: rgba(0, 0, 0, .60);
+  } 
+}
+
+ @media screen and (min-width: 1081px) {
+  .resize-a {
+    font-size: 2vw; /* méret 1080px-nél szélesebb kijelzőkön */
+    color: rgba(0, 0, 0, .60);
+  }
+}
+  
+@media screen and (max-width: 1080px) {
+  .resize-a {
+    font-size: 5vw; /* méret 1080px-es szélesség alatt kijelzőkre */
+    color: rgba(0, 0, 0, .60);
+  }
+}
+  
+
+@media screen and (min-width: 1081px) {
+  .resize-p {
+    font-size: 1.5vw; /* méret 1080px-nél szélesebb kijelzőkön */
+    color: rgba(0, 0, 0, .80);      
+  }
+}
+  
+@media screen and (max-width: 1080px) {
+  .resize-p {
+    font-size: 5vw; /* méret 1080px-es szélesség alatt kijelzőkre */
+    color: rgba(0, 0, 0, .80);
+ }
+}
+
+.website-transparency{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.nav-a-size{
+    font-size: 4vw;
+
+}
+
+
+
+@media screen and (min-width: 1081px) {
+  .text-p {
+    font-size: 1.25vw; /* méret 1080px-nél szélesebb kijelzőkön */
+    color: rgba(0, 0, 0,);      
+  }
+}
+  
+@media screen and (max-width: 1080px) {
+  .text-p {
+    font-size: 5vw; /* méret 1080px-es szélesség alatt kijelzőkre */
+    color: rgba(0, 0, 0,);
+ }
+}
+
+
+@media screen and (min-width: 1081px) {
+  .a-subtitle{
+    /* méret 1080px-nél szélesebb kijelzőkön */
+    font-size: 2.25vw;
+    text-decoration: solid;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.1vw;
+    color: rgba(0, 132, 255, 0.8);
+  
+  }
+}
+  
+@media screen and (max-width: 1080px) {
+  .a-subtitle{
+    /* méret 1080px-es szélesség alatt kijelzőkre */
+    font-size: 7vw;
+    text-decoration: solid;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.1vw;
+    color: rgba(0, 132, 255, 0.8);
+  
+  }
+}
+
+@media screen and (min-width: 1081px) {
+   /* méret 1080px-nél szélesebb kijelzőkön */
+   .carousel-div{
+    width: 125vh;
+    margin: 0 auto;
+    padding: 1rem;  
+  }  
+}
+  
+@media screen and (max-width: 1080px) {
+   /* méret 1080px-es szélesség alatt kijelzőkre */
+   .carousel-div{
+    width: 50vh;
+    margin: 0 auto;
+    padding: 0.25rem;  
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  .carousel-subtitle {
+    font-size: 2.25vw; /* méret 1080px-nél szélesebb kijelzőkön */
+    color: rgba(0, 0, 0, .60);
+  }
+}
+  
+@media screen and (max-width: 1080px) {
+  .carousel-subtitle {
+    font-size: 6vw; /* méret 1080px-es szélesség alatt kijelzőkre */
+    color: rgba(0, 0, 0, .60);
+  }
+}
+
+.footer-p{
+  font-size: 2vh;
+}
